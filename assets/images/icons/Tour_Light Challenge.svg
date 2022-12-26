@@ -1,0 +1,9 @@
+<svg id="Light_Challenge" data-name="Light Challenge" xmlns="http://www.w3.org/2000/svg" width="362" height="50" viewBox="0 0 362 50">
+  <rect id="Rectangle_439" data-name="Rectangle 439" width="119" height="26" transform="translate(0 12)" fill="#366e56"/>
+  <rect id="Rectangle_439-2" data-name="Rectangle 439" width="120" height="26" transform="translate(121 12)" fill="#fb9d22"/>
+  <rect id="Rectangle_439-3" data-name="Rectangle 439" width="119" height="26" transform="translate(243 12)" fill="#676768" opacity="0.96"/>
+  <g id="Group_63020" data-name="Group 63020" transform="translate(35)">
+    <path id="Path_499" data-name="Path 499" d="M25,0A25,25,0,1,1,0,25,25,25,0,0,1,25,0Z" transform="translate(0)" fill="#366e56"/>
+    <path id="check" d="M7.652,81.567.33,74.246a1.126,1.126,0,0,1,0-1.593L1.923,71.06a1.126,1.126,0,0,1,1.593,0l4.932,4.932L19.012,65.428a1.126,1.126,0,0,1,1.593,0L22.2,67.021a1.126,1.126,0,0,1,0,1.593L9.245,81.567a1.126,1.126,0,0,1-1.593,0Z" transform="translate(13.208 -47.935)" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,65 @@
+#date-wrap {
+  position: relative;
+}
+#date-wrap:before {
+  content: "";
+  position: absolute;
+  right: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url("../images/icons/HOME_dropdown arrow.svg") center/contain no-repeat;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease-in-out;
+}
+#date-wrap #when {
+  color: #676768;
+  font-size: 24px;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+}
+#date-wrap .datepicker-dropdown {
+  width: 100%;
+  left: 0 !important;
+  padding: 30px 30px 20px 30px;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#date-wrap .datepicker-dropdown:before {
+  display: none !important;
+}
+#date-wrap .datepicker-dropdown:after {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  width: calc(100% - 80px);
+  background: #FB9D22;
+  height: 5px;
+  display: block;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: none !important;
+}
+#date-wrap .datepicker-dropdown .table-condensed thead tr:last-of-type {
+  border-top: 1px solid rgba(251, 157, 34, 0.5);
+  border-bottom: 1px solid rgba(251, 157, 34, 0.5);
+}
+#date-wrap .datepicker-dropdown .table-condensed thead .datepicker-switch {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+#date-wrap .datepicker-dropdown .table-condensed tbody tr td {
+  font-size: 18px;
+  color: #676768;
+}
+
+.filter-option-inner-inner {
+  color: #676768;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=custom_css.css.map */

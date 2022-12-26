@@ -1,0 +1,10 @@
+<svg id="Photos_-_Galerija" data-name="Photos - Galerija" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Rectangle_540" data-name="Rectangle 540" fill="#fff" stroke="#fff" stroke-width="2">
+    <rect width="50" height="50" rx="24" stroke="none"/>
+    <rect x="1" y="1" width="48" height="48" rx="23" fill="none"/>
+  </g>
+  <g id="Icon_material-camera-alt" data-name="Icon material-camera-alt" transform="translate(8.75 8.75)">
+    <path id="Path_12407" data-name="Path 12407" d="M23.867,18.533A5.333,5.333,0,1,1,18.533,13.2,5.333,5.333,0,0,1,23.867,18.533Z" transform="translate(-1.867 -1.867)" fill="#fb9d22"/>
+    <path id="Path_12408" data-name="Path 12408" d="M14.667,3l-3.05,3.333H6.333A3.343,3.343,0,0,0,3,9.667v20A3.343,3.343,0,0,0,6.333,33H33a3.343,3.343,0,0,0,3.333-3.333v-20A3.343,3.343,0,0,0,33,6.333H27.717L24.667,3Zm5,25A8.333,8.333,0,1,1,28,19.667,8.336,8.336,0,0,1,19.667,28Z" transform="translate(-3 -3)" fill="#fb9d22"/>
+  </g>
+</svg>

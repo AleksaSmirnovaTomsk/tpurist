@@ -1,0 +1,92 @@
+
+#date-wrap {
+  position: relative;
+
+
+  &:before {
+    content: "";
+    position: absolute;
+    right: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: url("../images/icons/HOME_dropdown arrow.svg")center/contain no-repeat;
+    width: 10px;
+    height: 10px;
+    transition: all .3s ease-in-out;
+  }
+
+
+  #when {
+    color: #676768;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    display: block;
+
+
+  }
+  .datepicker-dropdown {
+    width: 100%;
+    left: 0 !important;
+    padding:30px 30px 20px 30px;
+    border-top:none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+    &:before {
+      display: none !important;
+    }
+
+    &:after {
+      position: absolute;
+      left: 40px;
+      top: 10px;
+      width: calc(100% - 80px);
+      background:#FB9D22;
+      height: 5px;
+      display: block;
+      border-left: none !important;
+      border-right: none !important;
+      border-bottom: none !important;
+    }
+
+    .table-condensed {
+        thead {
+          tr:last-of-type {
+            border-top: 1px solid rgba(251, 157, 34, .5);
+            border-bottom: 1px solid rgba(251, 157, 34, .5);
+          }
+          .datepicker-switch {
+            font-size: 22px;
+            font-weight: bold;
+            text-align: left;
+          }
+        }
+      tbody {
+        tr {
+          td {
+            font-size: 18px;
+            color: #676768;
+          }
+        }
+      }
+    }
+
+  }
+
+  //&.active {
+  //   #when {
+  //     color: #FB9D22;
+  //   }
+  //  &:before {
+  //    transform: rotate(-180deg);
+  //    filter: invert(78%) sepia(40%) saturate(4805%) hue-rotate(344deg) brightness(104%) contrast(97%);
+  //  }
+  //}
+}
+
+.filter-option-inner-inner {
+  color: #676768;
+  font-size: 24px;
+  font-weight: bold;
+}
